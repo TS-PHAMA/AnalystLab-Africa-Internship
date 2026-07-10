@@ -8,35 +8,8 @@
 ---
 
 ## Project Structure
-AnalystLab_Internship/
-|
-+-- datasets/
-| +-- Titanic-Dataset.csv
-| +-- Housing.csv
-| +-- titanic_cleaned.csv
-| +-- housing_cleaned.csv
-|
-+-- Week1-2_EDA/
-| +-- Week1-2_EDA.ipynb
-| +-- Week1-2_EDA_Report.pdf
-| +-- figures/
-| +-- dashboards/
-| | +-- titanic_dashboard.png
-| | +-- housing_dashboard.png
-| +-- visuals/
-| +-- titanic/
-| | +-- 6 visuals
-| +-- housing/
-| +-- 5 visuals
-|
-+-- Week3_Statistics/
-+-- Week4_Supervised_Learning/
-+-- Week5_Advanced_ML/
-+-- Week6_Feature_Engineering/
-+-- Week7_Deployment/
-+-- Week8_Capstone/
-+-- models/
-+-- reports/
+
+![Project Structure](Week1-2_EDA/figures/dashboards/project_structure.png)
 
 ---
 
