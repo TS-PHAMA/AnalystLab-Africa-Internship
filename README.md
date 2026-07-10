@@ -9,7 +9,7 @@
 
 **Intern:** Thembinkosi Spogter Phama  
 **Program:** 8-Week Data Science Internship  
-**Duration:** July 2026  
+**Duration:** 01 July 2026 - 01 September 2026
 **Organization:** AnalystLab Africa  
 
 <br>
