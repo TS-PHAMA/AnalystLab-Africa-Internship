@@ -2,10 +2,9 @@
 
 <!-- LOGO & TITLE SECTION -->
 <br>
-<img src="assets/AnalystAfrica_Logo.jpeg" alt="AnalystLab Africa Logo" width="180">
+<img src="assets/AnalystAfrica_Logo.png" alt="AnalystLab Africa Logo" width="200">
 
 <br><br>
-
 # AnalystLab Africa — Data Science Internship
 
 **Intern:** Thembinkosi Spogter Phama  
