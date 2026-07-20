@@ -37,7 +37,7 @@
 | Week | Topic | Status | Deliverables |
 |------|-------|--------|--------------|
 | **1–2** | Data Cleaning & EDA | ✅ Complete | Notebook, PDF Report, 11 Visuals, 2 Dashboards |
-| 3 | Statistics & Probability | 🔜 Upcoming | Statistical Analysis Report |
+| 3 | Statistics & Probability | ✅ Complete | Statistical Analysis Report |
 | 4 | Supervised Learning | 🔜 Upcoming | ML Models Notebook |
 | 5 | Advanced ML | 🔜 Upcoming | Model Comparison Report |
 | 6 | Feature Engineering | 🔜 Upcoming | Optimized Models |
