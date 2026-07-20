@@ -121,7 +121,63 @@
   - housing_cleaned.csv
 
 ---
+## ✅ Week 3: Statistics & Probability
 
+### Topics Covered
+
+- Descriptive Statistics (mean, variance, skewness, kurtosis)
+- Probability Distributions (Normal, Right-Skewed)
+- Hypothesis Testing (T-Test, Chi-Square)
+- Correlation vs Causation
+
+### Hypothesis Testing Results (Alpha = 0.05)
+
+| # | Test | Type | p-value | Result |
+|---|------|------|---------|--------|
+| 1 | Age: Survivors vs Non-Survivors | T-Test | 0.0528 | ❌ NOT Significant |
+| 2 | Fare: 1st Class vs 3rd Class | T-Test | < 0.001 | ✅ HIGHLY Significant |
+| 3 | Survival vs Gender | Chi-Square | < 0.001 | ✅ HIGHLY Significant |
+| 4 | Price: AC vs No AC (Housing) | T-Test | < 0.001 | ✅ HIGHLY Significant |
+
+### Key Insights
+
+<details>
+<summary><b>📊 Statistical Findings (Click to expand)</b></summary>
+<br>
+
+- **Age** is near-normally distributed (skew=0.51, mean≈median)
+- **Fare** is heavily right-skewed (skew=4.79) with mean (32.2) >> median (14.5)
+- **Housing Price & Area** are moderately right-skewed (skew ~1.2-1.3)
+- **Gender** is the most significant survival predictor (Chi-Square = 260.7)
+- **Air Conditioning** adds significant value to houses (~1.8M difference)
+
+</details>
+
+<details>
+<summary><b>⚠️ Correlation ≠ Causation (Click to expand)</b></summary>
+<br>
+
+- **Fare & Survival (r=0.26):** Fare is a proxy for Class, not a direct cause
+- **Bedrooms & Price (r=0.37):** Area (r=0.54) is the real driver
+- **Age & Survival (r=-0.06):** Not even statistically significant (p=0.0528)
+
+</details>
+
+---
+
+## 📂 Week 3 Deliverables
+
+- **Jupyter Notebook:** `Week3_Statistics/Week3_Statistics.ipynb`
+- **PDF Report:** `Week3_Statistics/Week3_Statistics_Report.pdf`
+- **Dashboards (2):** `Week3_Statistics/figures/dashboards/`
+  - Titanic Statistical Dashboard
+  - Housing Statistical Dashboard
+- **Visuals (4):** `Week3_Statistics/figures/visuals/`
+  - Distribution Comparison
+  - Hypothesis Test Results
+  - Titanic Correlation Heatmap
+  - Housing Correlation Heatmap
+    
 ## 🔗 Connect
 
 <div align="center">
