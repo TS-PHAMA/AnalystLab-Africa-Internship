@@ -177,7 +177,68 @@
   - Hypothesis Test Results
   - Titanic Correlation Heatmap
   - Housing Correlation Heatmap
-    
+
+## ✅ Week 4: Supervised Learning
+
+### Models Built
+
+| Model | Dataset | Task | Key Metric | Score |
+|-------|---------|------|------------|-------|
+| Linear Regression | Housing (545 rows) | Predict Price | R² | 0.6495 (64.95%) |
+| Logistic Regression | Titanic (891 rows) | Predict Survival | Accuracy | 81.01% |
+
+### Steps Taken
+
+- Encoded categorical variables using Label Encoding
+- Split data into training (80%) and testing (20%) sets
+- Trained Linear Regression model on Housing dataset
+- Trained Logistic Regression model on Titanic dataset
+- Evaluated models using appropriate metrics
+- Saved trained models for Week 7 deployment
+
+### Model Performance
+
+<details>
+<summary><b>🏠 Housing Price Prediction — Linear Regression (Click to expand)</b></summary>
+<br>
+
+- **R² Score:** 0.6495 (explains 64.95% of price variance)
+- **RMSE:** 1,331,071 (average prediction error)
+- **Top Drivers:** Bathrooms (+1,097,117), Air Conditioning (+785,551), Hot Water Heating (+687,881)
+
+</details>
+
+<details>
+<summary><b>🚢 Titanic Survival Prediction — Logistic Regression (Click to expand)</b></summary>
+<br>
+
+- **Accuracy:** 81.01%
+- **Precision (Survived):** 0.79 | **Recall (Survived):** 0.74
+- **Precision (Died):** 0.83 | **Recall (Died):** 0.86
+- **Top Predictors:** Sex (-2.60), Pclass (-0.93), SibSp (-0.29)
+
+</details>
+
+### Key Insights
+
+- Gender is overwhelmingly the most important survival predictor
+- Bathrooms and AC are stronger price drivers than Area in the model
+- Simple models provide interpretable baselines before advanced techniques
+- Class imbalance in Titanic affects recall (better at predicting non-survivors)
+
+---
+
+## 📂 Week 4 Deliverables
+
+- **Jupyter Notebook:** `Week4_Supervised_Learning/Week4_Supervised_Learning.ipynb`
+- **PDF Report:** `Week4_Supervised_Learning/Week4_Model_Evaluation_Report.pdf`
+- **Dashboards (2):** `Week4_Supervised_Learning/figures/dashboards/`
+  - Titanic Classification Dashboard
+  - Housing Regression Dashboard
+- **Saved Models:** `models/`
+  - linear_regression_housing.pkl
+  - logistic_regression_titanic.pkl
+  -     
 ## 🔗 Connect
 
 <div align="center">
