@@ -38,7 +38,7 @@
 |------|-------|--------|--------------|
 | **1–2** | Data Cleaning & EDA | ✅ Complete | Notebook, PDF Report, 11 Visuals, 2 Dashboards |
 | 3 | Statistics & Probability | ✅ Complete | Statistical Analysis Report |
-| 4 | Supervised Learning | ✅ Complete | ML Models Notebook |
+| 4 | Supervised Learning | ✅ Complete | Notebook, PDF Report, 2 Dashboards, Saved Models |
 | 5 | Advanced ML | 🔜 Upcoming | Model Comparison Report |
 | 6 | Feature Engineering | 🔜 Upcoming | Optimized Models |
 | 7 | Model Deployment | 🔜 Upcoming | Flask/Streamlit App |
